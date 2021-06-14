@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'El Messiri', sans-serif;
+
+}
+.text-white {
+    color: #fff !important;
+    text-align: right;
+    direction: rtl;
+}
+
+.banner-two .banner-content .sub-title {
+    font-family: 'El Messiri', sans-serif;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-align: right;
+    direction: rtl;
+}
+
+.banner-two .banner-content h1 {
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    text-align: right;
+    direction: rtl;
+}
+
+p{
+    font-family: 'El Messiri', sans-serif;
+    text-align: justify;
+    direction: rtl;
+}
+
+.banner-two {
+    height: 950px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-wraper-1 .section-head {
+    margin-bottom: 40px;
+    direction: rtl;
+    text-align: right;
+    margin-left: 40px;
+}
+
+.section-head.style-3 h2.title {
+    font-size: 45px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.section-head.style-3 .sub-title {
+    font-family: 'El Messiri', sans-serif;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.section-head {
+    text-align: right;
+    direction: rtl;
+}
+
+.dlab-subscribe.style-1 {
+    font-family: 'El Messiri', sans-serif;
+    padding: 75px 60px;
+    background-color: #fff;
+    z-index: 99;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+    background-image: url(../images/pattern/pattern3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 50px;
+    text-align: right;
+    direction: rtl;
+}
+
+h3 {
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+.input-group > .form-control, .input-group > .form-control-plaintext, .input-group > .custom-select, .input-group > .custom-file {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+footer .footer-title {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #fff;
+    line-height: 1.2;
+    text-align: right;
+    direction: rtl;
+    width: 333px;
+}
+
+footer .footer-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #fff;
+    right: 72px;
+}
+
+footer .footer-title:before, footer .footer-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 195px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+li {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    text-align: right;
+}
+
+footer .footer-logo {
+    margin: 25px;
+    text-align: left;
+    direction: rtl;
+    position: relative;
+    
+}
+
+.site-header .extra-nav {
+    float: right;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999999;
+    display: none;
+}
+
+.content-box {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-title p {
+    text-align: center;
+    letter-spacing: 0;
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.close {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3 url(/gccindustrialgate/images/close.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 9999999999;
+}
