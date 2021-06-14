@@ -213,3 +213,21 @@ footer .footer-logo {
     border-radius: 50%;
     z-index: 9999999999;
 }
+
+.banner-ad-left {
+    
+    position: absolute;
+    top: 42.5%;
+    left: -20%;
+    width: 50%;
+    transform: rotate(90deg);
+}
+
+.banner-ad-right {
+    position: absolute;
+    top: 42.5%;
+    right: -20%;
+    width: 50%;
+    transform: rotate(90deg);
+}
+
